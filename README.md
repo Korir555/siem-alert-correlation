@@ -54,28 +54,28 @@ Built to demonstrate:
 
 ```
 siem-alert-correlation/
-├── backend/
-│   ├── alert_correlator.py      # Main engine (600+ LOC)
-│   ├── requirements.txt
-│   └── models/
-│       ├── SiemAlert
-│       ├── CorrelatedIncident
-│       ├── CorrelationRule
-│       └── FalsePositiveFilter
-├── frontend/
-│   ├── App.jsx
-│   ├── components/
-│   │   ├── AlertIngestor.jsx      # Ingest alerts
-│   │   ├── IncidentViewer.jsx     # View correlations
-│   │   ├── MitreMapping.jsx       # MITRE techniques
-│   │   ├── Statistics.jsx         # SOC metrics
-│   │   └── CorrelationRules.jsx   # Rule management
-│   ├── App.css
-│   └── main.jsx
-└── docs/
-    ├── API.md                     # REST endpoints
-    ├── SETUP.md                   # Deployment
-    └── MITRE.md                   # Technique mapping
+ backend/
+    alert_correlator.py      # Main engine (600+ LOC)
+    requirements.txt
+    models/
+        SiemAlert
+        CorrelatedIncident
+        CorrelationRule
+        FalsePositiveFilter
+ frontend/
+    App.jsx
+    components/
+       AlertIngestor.jsx      # Ingest alerts
+       IncidentViewer.jsx     # View correlations
+       MitreMapping.jsx       # MITRE techniques
+       Statistics.jsx         # SOC metrics
+       CorrelationRules.jsx   # Rule management
+    App.css
+    main.jsx
+ docs/
+     API.md                     # REST endpoints
+     SETUP.md                   # Deployment
+     MITRE.md                   # Technique mapping
 ```
 
 ## API Endpoints
@@ -310,11 +310,11 @@ Enterprise SOC operations tool demonstrating alert correlation, false positive f
 
 ## Technical Skills Demonstrated
 
-- ✅ **Backend:** Flask, SQLAlchemy, correlation algorithms, rule engines
-- ✅ **Frontend:** React, real-time data visualization, dashboard design
-- ✅ **Security:** MITRE ATT&CK framework, incident classification, triage logic
-- ✅ **Enterprise Tools:** SIEM integration (Wazuh, Suricata), alert normalization
-- ✅ **DevOps:** API design, multi-source data ingestion, scalable architecture
+-  **Backend:** Flask, SQLAlchemy, correlation algorithms, rule engines
+-  **Frontend:** React, real-time data visualization, dashboard design
+-  **Security:** MITRE ATT&CK framework, incident classification, triage logic
+-  **Enterprise Tools:** SIEM integration (Wazuh, Suricata), alert normalization
+-  **DevOps:** API design, multi-source data ingestion, scalable architecture
 
 ## Next Steps / Extensions
 
